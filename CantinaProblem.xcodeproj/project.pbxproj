@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E54E50522A5310C004E7F3D /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54E50422A5310C004E7F3D /* IntExtension.swift */; };
+		4ECCAD8A22A37B6D00ACF46E /* MyJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCAD8922A37B6D00ACF46E /* MyJson.swift */; };
 		4EF0055022A31E9D00FEFCFD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF0054F22A31E9D00FEFCFD /* main.swift */; };
+		4EF0055722A3200900FEFCFD /* ConsoleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF0055622A3200900FEFCFD /* ConsoleIO.swift */; };
+		4EF0055922A320C100FEFCFD /* OutputService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF0055822A320C100FEFCFD /* OutputService.swift */; };
+		4EF0055F22A3271B00FEFCFD /* JsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF0055E22A3271B00FEFCFD /* JsonModel.swift */; };
+		4EF0056222A32A7A00FEFCFD /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF0056122A32A7A00FEFCFD /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +29,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4E54E50422A5310C004E7F3D /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		4ECCAD8922A37B6D00ACF46E /* MyJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJson.swift; sourceTree = "<group>"; };
 		4EF0054C22A31E9D00FEFCFD /* CantinaProblem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CantinaProblem; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EF0054F22A31E9D00FEFCFD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4EF0055622A3200900FEFCFD /* ConsoleIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleIO.swift; sourceTree = "<group>"; };
+		4EF0055822A320C100FEFCFD /* OutputService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputService.swift; sourceTree = "<group>"; };
+		4EF0055E22A3271B00FEFCFD /* JsonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonModel.swift; sourceTree = "<group>"; };
+		4EF0056122A32A7A00FEFCFD /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +53,9 @@
 		4EF0054322A31E9D00FEFCFD = {
 			isa = PBXGroup;
 			children = (
+				4ECCAD8922A37B6D00ACF46E /* MyJson.swift */,
+				4EF0056022A32A4300FEFCFD /* Extension */,
+				4EF0055B22A326F000FEFCFD /* model */,
 				4EF0054E22A31E9D00FEFCFD /* CantinaProblem */,
 				4EF0054D22A31E9D00FEFCFD /* Products */,
 			);
@@ -58,8 +73,27 @@
 			isa = PBXGroup;
 			children = (
 				4EF0054F22A31E9D00FEFCFD /* main.swift */,
+				4EF0055622A3200900FEFCFD /* ConsoleIO.swift */,
+				4EF0055822A320C100FEFCFD /* OutputService.swift */,
 			);
 			path = CantinaProblem;
+			sourceTree = "<group>";
+		};
+		4EF0055B22A326F000FEFCFD /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4EF0055E22A3271B00FEFCFD /* JsonModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4EF0056022A32A4300FEFCFD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4EF0056122A32A7A00FEFCFD /* StringExtension.swift */,
+				4E54E50422A5310C004E7F3D /* IntExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +154,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EF0055022A31E9D00FEFCFD /* main.swift in Sources */,
+				4EF0055F22A3271B00FEFCFD /* JsonModel.swift in Sources */,
+				4E54E50522A5310C004E7F3D /* IntExtension.swift in Sources */,
+				4EF0056222A32A7A00FEFCFD /* StringExtension.swift in Sources */,
+				4ECCAD8A22A37B6D00ACF46E /* MyJson.swift in Sources */,
+				4EF0055922A320C100FEFCFD /* OutputService.swift in Sources */,
+				4EF0055722A3200900FEFCFD /* ConsoleIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
